@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Mysales</string>
+    <string name="seraching_for_a_specific_salesman">Seraching for a specific salesman</string>
+    <string name="intering_salesman_info">Intering salesman info</string>
+    <string name="persil">Persil</string>
+    <string name="todo">TODO</string>
+    <string name="todo1">TODO</string>
+    <string name="input_salesman_info">input salesman info</string>
+    <string name="todo2">TODO</string>
+    <string name="salesman_name">Salesman name</string>
+    <string name="salesman_area">\nsalesman area\n</string>
+    <string name="salesman_area1">salesman_area</string>
+    <string name="salesman_number">salesman number</string>
+    <string name="add_image">Add image</string>
+    <string name="delete_info">Delete info</string>
+</resources>

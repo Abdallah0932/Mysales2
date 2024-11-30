@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!-- floating button -->
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:contentDescription="@string/todo2"
+        app:srcCompat="@drawable/add"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="339dp"
+        tools:layout_editor_absoluteY="659dp" />
+    <!-- entering salesman name -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="124dp"
+        android:text="@string/salesman_name"
+        android:textSize="22sp"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteY="63dp" />
+    <!-- entering salesman area -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:text="@string/salesman_area1"
+        android:textSize="22sp"
+        tools:ignore="MissingConstraints,TextSizeCheck"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="206dp" />
+    <!-- entering salesman number -->
+    <EditText
+        android:id="@+id/editTextNumber"
+        android:layout_width="160dp"
+        android:layout_height="48dp"
+        android:autofillHints="salesman number"
+        android:ems="10"
+        android:hint="@string/salesman_number"
+        android:inputType="number"
+        android:textColorHint="#546E7A"
+        tools:ignore="LabelFor,MissingConstraints"
+        tools:layout_editor_absoluteX="125dp"
+        tools:layout_editor_absoluteY="131dp" />
+    <!-- entering salesman image -->
+    <Button
+        android:id="@+id/button"
+        android:layout_width="349dp"
+        android:layout_height="48dp"
+        android:text="@string/add_image"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="31dp"
+        tools:layout_editor_absoluteY="288dp" />
+    <!-- editing salesman info -->
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Edit info"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteX="26dp"
+        tools:layout_editor_absoluteY="385dp" />
+    <!-- deleting salesman info -->
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/delete_info"
+        tools:layout_editor_absoluteX="252dp"
+        tools:layout_editor_absoluteY="385dp"
+        tools:ignore="MissingConstraints" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

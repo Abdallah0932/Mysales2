@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:background="#FFFFFF"
+    tools:ignore="ExtraText">
+
+    <!-- Company Logo -->
+    <ImageView
+        android:id="@+id/company_logo"
+        android:layout_width="200dp"
+        android:layout_height="100dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo"
+        android:src="@drawable/logo"
+    />
+    <!-- Company Logo with 20% opacity -->
+    <ImageView
+        android:id="@+id/company_fadedlogo"
+        android:layout_width="300dp"
+        android:layout_height="1000dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="20dp"
+        android:contentDescription="@string/todo1"
+        android:src="@drawable/logo"
+        android:alpha="0.2"
+        />
+    <!-- Company Name -->
+    <TextView
+        android:id="@+id/company_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_logo"
+        android:layout_centerHorizontal="true"
+        android:text="@string/persil"
+        android:textSize="30sp"
+        android:textColor="#000000" />
+
+
+    <!-- Button to navigate to Activity 1 -->
+    <Button
+        android:id="@+id/button_activity_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/company_name"
+        android:layout_marginTop="20dp"
+        android:text="@string/input_salesman_info" />
+
+    <!-- Button to navigate to Activity 2 -->
+    <Button
+        android:id="@+id/button_activity_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/button_activity_1"
+        android:layout_marginTop="10dp"
+        android:text="@string/seraching_for_a_specific_salesman" />
+
+</RelativeLayout>
